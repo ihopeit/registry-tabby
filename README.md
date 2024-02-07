@@ -1,5 +1,14 @@
 # 🧑‍🔬 Tabby Registry
 
+## How can I convert my own model for use with Tabby?
+https://tabby.tabbyml.com/docs/faq
+
+Since version 0.5.0, Tabby's inference now operates entirely on llama.cpp, allowing the use of any GGUF-compatible model format with Tabby. To enhance accessibility, we have curated models that we benchmarked, available at registry-tabby
+
+Users are free to fork the repository to create their own registry. If a user's registry is located at https://github.com/USERNAME/registry-tabby, the model ID will be USERNAME/model.
+
+For details on the registry format, please refer to models.json
+
 ## Completion models (`--model`)
 
 We recommend using
